@@ -90,5 +90,5 @@ oder
 ```
 
 ## Links
-[Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
-[Jekyll](https://jekyllrb.com/resources/)
+[Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)  
+[Jekyll](https://jekyllrb.com/resources/)  
