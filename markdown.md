@@ -88,3 +88,7 @@ oder
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 ```
+
+## Links
+[Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
+[Jekyll](https://jekyllrb.com/resources/)
