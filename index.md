@@ -10,3 +10,5 @@ Auf dieser Seite will ich meine:
 - Ideen
 
 sammeln.
+
+![lkfiaip logo](lkfiaip.jpg)
