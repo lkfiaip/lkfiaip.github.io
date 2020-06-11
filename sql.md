@@ -4,6 +4,11 @@ title: SQL
 ---
 # SQL
 
+```sql
+SELECT * FROM Tabelle;
+```
+
+
 ## Links
 
-    - https://sql-island.informatik.uni-kl.de/
+[SQL Aufgaben Uni Kiel](https://sql-island.informatik.uni-kl.de/)  
