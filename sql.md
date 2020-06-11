@@ -3,10 +3,18 @@ layout: default
 title: SQL
 ---
 # SQL
+- Datenbankmodell
+- Datenmodell
+- Zwischentabelle
+- Primary Key Eindeutig
+- Foreign Key
+  
 
 ```sql
 SELECT * FROM Tabelle;
 ```
+
+## S19 4.HS
 
 
 ## Links
