@@ -33,4 +33,123 @@ test 123
 - Multi SSID
 
 
+## Backup
+### inkrementelle Sicherung
+- Speichert nur die Daten, die seit dem Zeitpunkt der letzten Sicherung(volle oder inkrementelle Sicherung veraendert wurden)
+### differentielle Sicherung
+- Zuwachssicherung; alle Daten, die seit der letzten Vollsicherung, veraendert oder erstellt wurden, werden gesichert(Archiv-Bit wird nicht veraendert)
+### Fragen zum Backup
+- Welche Daten sollen gesichert werden?
+- Wie lange sind die Datensicherungen aufzubewahren?
+- Wie oft soll die Datensicherung erfolgen?
+- Welche Datensicherungsmethode ist am besten geeigenet?
+- Welche Datenmengen fallen an(ingesamt/pro Speicherperiode)?
+- Wann soll die Sicherung durchgefuehrt werden?
+- Wo soll die Datensicherung aufbewahrt werden?
+- Wie soll die Datensicherung gegen Diebstahl geschuetzt werden (Verschluesselung)?
+- Wann, wie und durch wen sollen Datensicherungen auf ihre Wiederherstellbarkeit ueberprueft werden?
+- Welches Speichermedieum ist zu verweden?
+- Wer ist fuer die Datensicherung verantwortlich?
+
+
+## LAN Hardware
+### Router 
+- Hauptfunktion ist das Verbinden von Netzwerken
+- Optimale Wegfindung fuer die Uebertragung von Datenpalekten
+- Optimale Netzauslastung
+- Arbeitet mit IP-Adressierung
+- u.U. Funktion einer Packet-Firewall
+### Switch
+- Punkt-zu-Punkt-Verbindung zwischen angeschlossenen Endgeraeten
+- Gesamte Bandbreite des Netzwerkes steht pro Port zur Verfuegung
+- Arbeitet mit MAC-Adressierung
+
+## WLAN
+### Infrastrukturmodus
+- Kommunikation der einzelnen Endgeraete(Clients) ueber einen zentralen Knotenpunkt (Access Point)
+### Ad-hoc-Modus
+- Betriebsmodus, in dem die Kommunikation zwischen den einzelnen Teilnehmern (Clients) untereinander ohne zentrale Verbindungstelle (Access Point) erfolgt
+
+### Missbrauch absichern
+- Einschraenkung des Netzwerkbereichs
+- Standard-Passworts fuer APs und WLAN Router durch individuelles Passwort ersetzen
+- SSID nicht ausssenden
+- Hochgradige Verschluesselung waehlen
+- MAC-Adressfilter verwenden
+- RADIUS-Server einsetzen
+- u.a.
+### WLAN
+#### Vorteile
+- Es wird kein Netzwerkanschluss benoetigt
+- Schnelle und einfache installation
+- Flexibel, z.B. bei der Umpositionierung
+- u.a.
+#### Nachteile
+- Stoeranfaellig gegenueber Witterungseinfluessen
+- Erhoehte Daempfung durch, Hindernisse, d.h. moeglichst freie Sicht zwischen Sender und Empfaenger
+- In der Regel hoeherer Preis
+### Funkabdeckung Faktoren
+- Daempfung durch Hindernisse (Waende)
+- Verwendete Frequenzen (2,4 oder 5 GHz)
+- Sichtverhaeltnisse sowie Aufstellungsort der Access Points (Antennen)
+- Antennengewinn und abgestrahlte Sendeleistung
+- Qualitaet (und Empfangsempfindlichkeit) der Geraete(Router, Access Point)
+- Benoetigte Uebertragungsbandbreite
+- Elektrische/elektronische Stoerrquellen (Bluetooth-Geraete, andere Geraete, zB im ISM-Band usw)
+-ua
+### WPS Wi-Fi Protected Setup
+- Vereinfachung beim Hinzufuegen von Geraeten in ein bestehendes Netzwerk, ohne dass die Verschluesselung(WPA-2 Schluessel) erneut eingegeben werden muss.
+- Automatisierte Kommunikation zwischen WLAN-Accesspoint/Repeater und der/dem neu hinzuzufuegenden Komponente/Geraet
+
+### MIMO-Antennentechnologie 802.11n
+
+
+## LWL
+- Isolator, keine Gefahr von Blitzeinschlag und -uebertrag
+- Galvanische Trennung
+- Uberbruckung groesserer Entfernungen
+- Hohe Abhoersicherheit
+- Hohe Uebertragungsraten
+- u.a.
+
+## VLAN
+### VLAN vs phsysischer Verkabelung
+- Hoehere Flexibilitaet innerhalb der physikalischen Topologie
+- Einrichtung logischer Gruppen innerhalb der physikalischen Topologie moeglich
+- Erhoete Sicherheit durch Gruppierung(Subnetze)
+- Eingrenzung von Broadcastbereichen auf definiert Gruppen (Leistungserhoehung)
+- Verbesserte Dienstguete
+- Hoehere Sicherheit durch begrenzten Zugriff auf das Netzwerk
+- u.a.
+
+## VPN
+### Tunneling mit 6 to 4
+- Site-to-Site
+
+## Firewall
+### Paketfilter Firewall
+#### Paketheader-Inhalte die analysiert werden.
+- Quell-IP-Adresse
+- Ziel-IP-Adresse
+- Quell-Port
+- Ziel-Port
+- Protokoll
+- TCP-Flags
+
+#### Schutzfunktionen Application Firewall
+- Inhaltliche Bewertung von Daten, z.B. Benutzerauthentifizierung
+- Dieste koennen benutzerabhaengig erlaubt werden.
+- Umfangreiche Protokollierung
+- Keine direkt Kommunikationsverbindung zwischen Quelle und Ziel
+- Blockiierung von Aktionen bestimmter Anwendungen
+- u.a.
+
+
+## Ping
+- Ping-Signal an die Loopback-Adresse, um zu ueberpruefen, ob der TCP/IP-Protokollstack auf dem lokalen Computer funktioniert.
+
+## IP-Adressbereich
+- Private IP-Adressen werden im oeffentlichen Netz nicht geroutet
+- koennen in unterschiedlichen LANs mehrfach genutzt werden
+
 

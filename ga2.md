@@ -4,38 +4,6 @@ title: netzwerk
 ---
 # Netzwerk
 
-## Server-Virtualisierung
-- Bei einer Server-Virtualisierung wird einer physischer Server in mehrere virtuelle Server logisch aufgeteilt. Dies erfolgt durch eine 
-Virtualisierungssoftware, welche die Hardware von der Software(Betriebssystem und Anwendungen) logisch entkoppelt.
-### Vorteile:
-- Energieeinsparung(Betrieb und Kuehlung)
-- geringerer Platzbedarf
-- Beschleunigung von Backups und Updates
-- einfache Konsolidieurng von Systemen
-- bessere Auslastung der Hardware
-- u.a.
-### Nachteile:
-- Bestimmte Ressourcen stehen nur begrenzt zur Verfuegung
-- Performanceprobleme
-- Sicherheitsrisiko durch fehlerhafte Implementierung und Konfiguration
-- Ausfallrisiko und Hardwareausfall
-- Zusaetzliches Wissen fuer die Administration ist notwendig
-- u.a.
-### Moeglichkeiten der Server-Virtualisierung auf Hardwareebene
-- Serverpartitionieruung
-- Prozessorvirtualisierung
-- Speichervirtualisierung
-
-#### Application Virtualisierung
-- bessere Sicherung von Daten und Programmen
-- einfachere Verwaltung der PCs
-- weniger Arbeitsaufwand durch Standardisierung und zentrale Verwaltung
-- einfachere Installation weiterer PCs
-- einfachere Lizenzverwaltung
-- einfachere Portabilitaet von Software und Daten auf andere Hardware
-- Datenmissbrauch wird erschwert
-- u.a.
-
 ## Recht
 - Lieferverzug
 ### Lieferschein
@@ -61,10 +29,18 @@ Virtualisierungssoftware, welche die Hardware von der Software(Betriebssystem un
 ### Schutz VFI
 - Blitzeinwirkung
 - Frequenzschwankugen
-- Spannungsverzerrungen
+- Spannungsverzerrungen (Burst)
 - Spannungsoberschwingungen
-- Spannungsstoesse
+- Spannungsstoesse (Surge)
+- Unter- und Uberspannungen
 - u.a.
+### Sicherungsziele
+- Lueftungsanlagen
+- Telefonanlagen
+- Alarmanlagen
+- Zutrittskontrollsysteme
+- Kassensysteme
+- Aufzugsanlage
 
 ## Raid
 ### JBOD
@@ -99,6 +75,16 @@ eine Schluesselkarte mit der gesendeten Nummer zum Schliessen berechtigt ist. (B
 
 
 ## Vertrag
+
+## Rechnung
+Aufbewahrungspflicht 10 Jahre
+### Pflichtangaben
+- Vollstaendiger Name dese Unternehmens/Firma
+- Anschrift des Unternehmens
+- Steuernummer
+- USt.-ID-Nummer
+- Gerichtsstand, Handelsregisternummer, Geschaeftsfuehrung wird auch anerkannt
+
 
 ### Werkvertrag
 - Der Werkvertrag ist fuer die Edu-IT-GmbH guenstig, weil sich die Lock KG verpflichtet, die Basis-Konfiguration fertigzustellen.
@@ -182,37 +168,6 @@ die Nutzung der Software.
 - Tunnelmodus
 
 
-## Firewall
-### Paketfilter Firewall
-#### Paketheader-Inhalte die analysiert werden.
-- Quell-IP-Adresse
-- Ziel-IP-Adresse
-- Quell-Port
-- Ziel-Port
-- Protokoll
-- TCP-Flags
-
-#### Schutzfunktionen Application Firewall
-- Inhaltliche Bewertung von Daten, z.B. Benutzerauthentifizierung
-- Dieste koennen benutzerabhaengig erlaubt werden.
-- Umfangreiche Protokollierung
-- Keine direkt Kommunikationsverbindung zwischen Quelle und Ziel
-- Blockiierung von Aktionen bestimmter Anwendungen
-- u.a.
-
-## IPv6
-### Unicast
-- Bezeichnet eine einzelne Netzwerkschnmittstelle
-- Paket werden zu der durch die eindeutige Adresse gekennzeichneten NEtzwerkschnitelle gesendet
-### Multicast 
-- Bezeichnet eine Gruppe von Netzwerkgeraeten
-- Pakete werden zu einer bestimmten Gruppe von Netzwerkschnittstellen gesendet
-- Bei IPv6 git es keine Broadcast-Adresse, deren Funktion wird durch Multicast-Adressen ersetzt. 
-### Anycast
-- Adresse zwischen einer Unicast- udn einer Multicast-Adresse
-- Bezeichnet eine oder wenige Schnittstellen einer Gruppe von Netzwerkgeraeten (z. B. der naechste DNS oder DHCP-Server)
-
-### Tunneling mit 6 to 4
 
 
 ## Marketing
@@ -239,3 +194,100 @@ die Nutzung der Software.
 - Social Media Marketing(ueber Facebook, Twitter, Communities, etc)
 - Google AdWords
 - u.a.
+
+### Werbung
+- Eroeffnungsangebote an Systemen oder Zubehoer per Plakat oder Anzeige
+### Verkaufsfoerderung
+- Preisausschreiben zur Einweihung, Marchandising z.B. durch Kugelschreiber oder
+USB-Sticks mit Firmenaufdruck
+### Public Relations
+- Massnahmen CI (Corporate Identity), Hausmesse, Podiumsdiskussion
+### Sponsoring
+- Untersstuetztung eines lokalen Sportvereins, karitativer Einrichtungen
+### Social Media Marketing
+Beteiligung des Unternehmens an sozialen Netzwerken wie Facebook, XING und Twitter, Einrichtung von Communities, virales Marketing
+
+
+
+## Projektmanagement
+### Lastenheft
+- Enthaelt die quantifizierbaren Anforderungen des Auftraggebers oder Leistungen eines Auftragnehmers oder gibt an, was zu tun ist und wofuer.
+### Pflichtenheft
+- Enthaelt die Beschreibung der Leistungen, mit dnene der Auftragnehmer die im
+Lastenheft genannte Anforderungen erfuellen will, gibt an, wie und womit das Vorhaben realisiert werden soll.
+### Netzplantechnik
+### Gantt-Diagramm
+### Kalkulation
+- Gewinnzuschlag
+- Kundenskonto
+- Materialkostensatz
+
+#### Gemeinkosten
+- Kosten, die sich nicht direkt aus einem Auftrag ergeben
+- Kosten, die nicht direkt, sondern mithilfe von Zuschlagsaetzen dem Kostentraeger (Auftrag, Produkt) zuzurechnen sind
+#### Umsatzsteuer
+- keine Kosten, sondern ein durchlaufender Posten
+
+
+
+
+## PoE
+IEEE 802.3af
+
+## Aufbauorganisationnen
+### Mehrliniensystem
+- Vorteile:
+    - Mitarbeiter (Gruppenleiter) koennen flexibel eingesetzt werden
+    - Spezialisierung leichter moeglich
+    - Kurze Dienstwege
+    - Betonung auf Fachautoritaet
+    - u.a.
+- Nachteile:
+    - Mitarbeiter koennen bei Beauftragung durch Abteilungsleiter ueberfordert werden
+    - Probleme in der Abgrenzung von Zustaendigkeiten koennen entstehen
+    - Schwierige Fehlerzuweisung
+    - Uberforderderung der Mitarbeiter durch widerspruechliche Anweisung
+    - u.a.
+### Stabstelle bzw. Leitungshilfe
+- Aufgaben/Befugnisse dieser Stelle: Beratungsfunktion, keine Weisungsbefugnis, Fachautoritaet
+
+## Fuehrungsstil
+- ### Kooperativer Fuehrungstil
+    - Eigenverantwortliches Arbeiten
+    - Beteiligung der Mitarbeiter an Entscheidungen
+    - Die Kontrolle der Mitarbeiter ist auf die Ergebnisse der Taetigkeit ausgerichtet
+    -u.a.
+## Stellenbeschreibung
+- Bezeichnung der Stelle
+- Zeichnungsvollmacht
+- Unterstellung
+- Ueberstellung
+- Vertretung
+- Auszufuehrende Taetigkeiten
+- Anforderungen an den Stelleninhaber
+- u.a.
+
+## Datenschutz
+- Der Datenschutz betrifft aussschliesslich personenbezogene Daten natuerlicher Personen und soll das informationelle Selbstbesstimmungsrecht 
+der Betroffenen schuetzen (vgl. BDSG)
+
+## Datensicherheit
+- USV
+- RAID
+- Einsatz von Firewall-Systemen
+- Verwendung von Verschluesselungssoftware
+- Einsatz von Antivierenprogrammen
+- Einsatz einer Public Key Infrastruktur
+
+
+## Fusion
+### Ziele
+- Groesserer gemeinsamer Kundenstamm
+- Groesseres gemeinsames Leistungsangebot
+- Verbesserung der Markstellung
+- Bessere Einkaufskonditionen durch groesseres Bestellvolumen
+- Kosteneinsparungen, zB durch gemeinsame Verwaltung
+### Probleme
+- Unterschiedlcihe Unternehmensskulturen finden nicht zusammen
+- Streitigkeiten, an welchen Standorten es zu Personalabbau kommen soll
+- Probleme, wer von den bisherigen Spezial- und Fuehrungskraeften die Leitung behaellt
