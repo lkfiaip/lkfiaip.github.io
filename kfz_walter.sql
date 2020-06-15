@@ -38,3 +38,31 @@ Insert into Lieferanten (bezeichnung_1, bezeichnung_2, strasse, land_plz, ort) v
 ('Autohandel','Max Schmidt GmbH','Automeile 5','D-16178','Berlin'),
 ('Autohaus','Scholz GbR','Bergweg 8','A-5021','Almstadt'),
 ('Kfz-Vertrieb','Schneeball AG','Alaska 45','D-19280','Hiddensee');
+
+
+SELECT Rechnungen.re_id, 
+    kunden.kunde_id, 
+    kunden.name, 
+    count(Re_Positionen.re_pos_id) AS 'Anz Fzg' ,
+    round((sum(Re_Positionen.vk_brutto) / 119 * 100), 2) AS 'RB_netto', 
+    round((sum(Re_Positionen.vk_brutto) / 119 * 19), 2) AS 'USt', 
+    sum(Re_Positionen.vk_brutto) AS 'RB brutto' 
+        FROM Re_Positionen 
+            JOIN Rechnungen ON Rechnungen.re_id = Re_Positionen.re_id 
+            JOIN kunden ON Rechnungen.kunde_id = kunden.kunde_id 
+                GROUP BY re_id 
+    UNION
+SELECT 
+    '','','',
+    count(Re_Positionen.re_pos_id), 
+    round((sum(Re_Positionen.vk_brutto)) / 119 * 100, 2),
+    round((sum(Re_Positionen.vk_brutto)) / 119 * 19, 2),
+    sum(Re_Positionen.vk_brutto)
+        FROM Re_Positionen;
+
+
+
+            NULL AS re_id, 
+    NULL AS kunde_id, 
+    NULL AS name, 
+    NULL AS Anz Fzg,
