@@ -36,3 +36,12 @@ Erloese durch Kosten zB
 - Konventionalstrafen
 - Unvorhersehbare Kosten durch Verzoegerung
 - ua
+
+## Kriterien Service Lieferant
+- kompetenter Ansprechpartner
+- Persoenliche Kundenbetreuung
+- Gute Erreichbarkeit (zB Hotline)
+- Vor-Ort-Leistungen
+- Schulungsangebote
+- Reperaturdienst
+- Bereitstellung von Ersatzgeraeten

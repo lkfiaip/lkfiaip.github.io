@@ -73,6 +73,14 @@ ihre Betriebsspannung dem elektromagnestischen Feld, das durch das Lesegeraet (i
 - Angeregt durch dieses elektromagnetische Feld senden die Transponder dann ihre fest kodierte Identifikationsnummmer. Das Lesegeraet an der Tuer prueft dann , ob
 eine Schluesselkarte mit der gesendeten Nummer zum Schliessen berechtigt ist. (Bei Aenderungen werden nicht die Karten neu codiert, sondern die Lesegeraete an der Tuer!)
 
+## Vorteile RFID vs Barcode
+- Hoehere Lesegeschwindigkeit
+- Geringere Stoeranfaelligkeit gegenueber Umwelteinfluessen
+- Kein Sichtkontakt erforderlich
+- Groessere gesicherte Datenmenge
+- Bidirektionale Kommunikation moeglich
+
+
 
 ## Vertrag
 

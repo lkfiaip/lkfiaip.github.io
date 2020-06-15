@@ -33,24 +33,6 @@ test 123
 - Multi SSID
 
 
-## Backup
-### inkrementelle Sicherung
-- Speichert nur die Daten, die seit dem Zeitpunkt der letzten Sicherung(volle oder inkrementelle Sicherung veraendert wurden)
-### differentielle Sicherung
-- Zuwachssicherung; alle Daten, die seit der letzten Vollsicherung, veraendert oder erstellt wurden, werden gesichert(Archiv-Bit wird nicht veraendert)
-### Fragen zum Backup
-- Welche Daten sollen gesichert werden?
-- Wie lange sind die Datensicherungen aufzubewahren?
-- Wie oft soll die Datensicherung erfolgen?
-- Welche Datensicherungsmethode ist am besten geeigenet?
-- Welche Datenmengen fallen an(ingesamt/pro Speicherperiode)?
-- Wann soll die Sicherung durchgefuehrt werden?
-- Wo soll die Datensicherung aufbewahrt werden?
-- Wie soll die Datensicherung gegen Diebstahl geschuetzt werden (Verschluesselung)?
-- Wann, wie und durch wen sollen Datensicherungen auf ihre Wiederherstellbarkeit ueberprueft werden?
-- Welches Speichermedieum ist zu verweden?
-- Wer ist fuer die Datensicherung verantwortlich?
-
 
 ## LAN Hardware
 ### Router 
@@ -111,6 +93,17 @@ test 123
 - Hohe Abhoersicherheit
 - Hohe Uebertragungsraten
 - u.a.
+
+### EMV
+- Unempfindlichkeit gegenueber elektromagnetischen Stoerungen von aussen (Stoerfestigkeit) sowie minimale eigene Stoeraussendung
+
+## LWL vs Twisted-Pair
+- Kein Nebensprechen (NEXT)
+- Geringere Daempfung
+- Hoehere Ubertragungsraten
+- Groessere Reichweiten moeglich
+- Keine Erdung erforderlich
+- kein Potentialausgleich erforderlich
 
 ## VLAN
 ### VLAN vs phsysischer Verkabelung
