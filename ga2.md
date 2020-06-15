@@ -176,3 +176,66 @@ die Nutzung der Software.
 
 
 
+## VPN
+### IPSec
+- Transportmodus
+- Tunnelmodus
+
+
+## Firewall
+### Paketfilter Firewall
+#### Paketheader-Inhalte die analysiert werden.
+- Quell-IP-Adresse
+- Ziel-IP-Adresse
+- Quell-Port
+- Ziel-Port
+- Protokoll
+- TCP-Flags
+
+#### Schutzfunktionen Application Firewall
+- Inhaltliche Bewertung von Daten, z.B. Benutzerauthentifizierung
+- Dieste koennen benutzerabhaengig erlaubt werden.
+- Umfangreiche Protokollierung
+- Keine direkt Kommunikationsverbindung zwischen Quelle und Ziel
+- Blockiierung von Aktionen bestimmter Anwendungen
+- u.a.
+
+## IPv6
+### Unicast
+- Bezeichnet eine einzelne Netzwerkschnmittstelle
+- Paket werden zu der durch die eindeutige Adresse gekennzeichneten NEtzwerkschnitelle gesendet
+### Multicast 
+- Bezeichnet eine Gruppe von Netzwerkgeraeten
+- Pakete werden zu einer bestimmten Gruppe von Netzwerkschnittstellen gesendet
+- Bei IPv6 git es keine Broadcast-Adresse, deren Funktion wird durch Multicast-Adressen ersetzt. 
+### Anycast
+- Adresse zwischen einer Unicast- udn einer Multicast-Adresse
+- Bezeichnet eine oder wenige Schnittstellen einer Gruppe von Netzwerkgeraeten (z. B. der naechste DNS oder DHCP-Server)
+
+### Tunneling mit 6 to 4
+
+
+## Marketing
+### Vorteile Online-Marketing vs. Offline-Marketing
+- schneller Verfuegbar
+- In einem Zeitraum dauerd/wiederholt verfuegbar
+- Weltweit verfuegbar
+- Kann nachtraeglich angepasst werden
+- Wird als moderner wahrgenommen
+- Ggf. kostenguenstiger (je nach Aufwand)
+- u.a.
+### Vorteile Printmedien vs Online-Werbung
+- Auch Interessten ohne Internetanschluss werden erreicht
+- Auch Interessenten, die nicht Kunde sind oder die nicht bestimmte INternetseiten aufrufen, werden erreicht
+- Unabhaengig von Smartphone, Tablet-PC u.a.
+- Einfacher zu handhaben, kann zb einfach mitgenommen werden. 
+- Besserer Ueberblick und Lesbarkeit
+- u.a.
+### Online-Marketingmassnahmen
+- E-Mail Werbung
+- Newsletter
+- Website-Werbung
+- Bannerwerbung bei Partnern (Affiliate Marketing)
+- Social Media Marketing(ueber Facebook, Twitter, Communities, etc)
+- Google AdWords
+- u.a.
