@@ -122,6 +122,23 @@ test 123
 - Hoehere Sicherheit durch begrenzten Zugriff auf das Netzwerk
 - u.a.
 
+### VLAN Merkmale/Moeglichkeiten
+- Einrichtung logischer Gruppen innerhalb der physischen Topologie
+- Hoehere Flexibilitaet durch einfache Aenderung von Gruppenzugehoerigkeiten
+- Einfachere Softwwarekonfiguration durch Software fuer die Grupppen
+- Erhoethe Sicherhit durch Gruppierung(Subnetze)
+- Bessere Lastverteilung moeglich
+- Bessere Ntuzung der Bandbreite
+- Kleinere Kollisionsbereiche (Broadcastdomaenen)
+- Priorisierung des Datenverkehrs moeglich
+- ua
+
+### statische VLAN
+- Eindeutige und feste Zuordnung von Switchports zu einem VLAN
+### dynamische VLAN
+- Zuordnung eines Clients zu einem VLAN erfolgt durch Protokollidentifikation, MAC-Adresse oder Authentifizierung (zB Radius-Server Zertifikate)
+
+
 ## VPN
 ### Tunneling mit 6 to 4
 - Site-to-Site
@@ -152,4 +169,8 @@ test 123
 - Private IP-Adressen werden im oeffentlichen Netz nicht geroutet
 - koennen in unterschiedlichen LANs mehrfach genutzt werden
 
+
+## PoE
+- Netzwerk-Endgeraete werden ueber das Netzwerkkbabel (TP-Kabel) mit Strom versorgt.
+- Die Stromversorgung von Endgereaten ueber Steckernetzteile entfaellt.
 

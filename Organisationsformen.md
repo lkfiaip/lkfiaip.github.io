@@ -17,3 +17,12 @@ title: Organisationsformen
 - DMS: Dokumentenmagemant System:
     - Ein System zur Verwaltung von Dokumenten aller Art inkl. der Prozesse zur Freigabe und Benachrichtigung bei Aenderungen, meistens als 
     Erweiterung von Archivsystemen
+
+
+## SMART
+- spezifisch
+- messbar 
+- akzeptiert 
+- realistisch
+- terminiert
+

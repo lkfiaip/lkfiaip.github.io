@@ -24,3 +24,5 @@ title: Raid
 - Ueberspannung
 - Mutwillige Manipulation
 
+Jede Datenaenderung wird auf allen Festplatten des RAID-Systems durchgefuehrt. Ungewollte Datenaenderungen koennen nicht rueckgaengig gemacht werden, 
+weil im RAID-System keine Daten zur Rekonstruktion verfuegbar sind. 
