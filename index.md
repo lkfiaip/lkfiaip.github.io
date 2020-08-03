@@ -8,7 +8,8 @@ Auf dieser Seite will ich meine:
 - Links
 - Wissen 
 - Ideen
+- Image neuer Ort
 
 sammeln.
 
-![lkfiaip logo](lkfiaip.jpg)
+![lkfiaip logo](/assets/images/lkfiaip.jpg)
