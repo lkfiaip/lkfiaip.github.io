@@ -1,4 +1,4 @@
-<nav class="navigation">
+<!-- <nav class="navigation">
   {% for my_page in site.pages %}
     {% if my_page.title %}
       <a class="button{% if my_page.url == page.url %} button-outline{% endif %}" href="{{ my_page.url | relative_url }}">
@@ -6,4 +6,28 @@
       </a>
     {% endif %} 
   {% endfor %}
-</nav>
+</nav> -->
+
+
+<header>
+  <div class="logo">lkfiap</div>
+  <nav class="active">
+      <ul>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+              <li>
+              <a class="{% if my_page.url == page.url %} active{% endif %}" href="{{ my_page.url | relative_url }}">
+                {{ my_page.title | escape }}
+              </a>
+            </li>
+          {% endif %} 
+        {% endfor %}
+
+
+
+
+
+      </ul>
+  </nav>
+  <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+</header>
