@@ -14,17 +14,19 @@
       </ul>
 
 
-      <div class="dropdown">
+      <div class="navbar">
         {% assign mydocs = site.docs | group_by: 'category' %}
         {% for cat in mydocs %}
-          <button class="dropbtn">{{ cat.name | capitalize }}
+          <div class="subnav">
+          <button class="subnavbtn">{{ cat.name | capitalize }}
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div class="subnav-content">
             {% assign items = cat.items | sort: 'order' %}
             {% for item in items %}
               <a href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
+          </div>
           </div>
         {% endfor %}
       </div>
